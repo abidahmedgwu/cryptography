@@ -20,11 +20,11 @@ public class HomeFrame extends JFrame implements ActionListener
     
     public HomeFrame() {
         super("Cryptography - Home");
-        setSize(650, 100);
+        setSize(650, 125);
         setLocationRelativeTo(null);
         setLookAndFeel();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        FlowLayout layout1 = new FlowLayout(FlowLayout.CENTER);
+        FlowLayout layout1 = new FlowLayout(FlowLayout.CENTER, 5, 20);
         setResizable(false);
         row2.setLayout(layout1);
         caesar.addActionListener(this);
