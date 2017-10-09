@@ -10,11 +10,13 @@ import java.awt.*;
 import java.awt.event.*;
 public class GeneralFrame extends JFrame
 {
+
     // Row 1
     protected JPanel row1 = new JPanel();
     protected JLabel inputLabel = new JLabel("Input: ");
     protected JTextArea input = new JTextArea(6, 100);
-    protected JScrollPane inputScroll = new JScrollPane(input, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, 
+
+    protected JScrollPane inputScroll = new JScrollPane(input, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
                                     JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
     // Row 2 
     protected JPanel row2 = new JPanel();
