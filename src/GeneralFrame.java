@@ -10,7 +10,6 @@ import java.awt.*;
 import java.awt.event.*;
 public class GeneralFrame extends JFrame
 {
-
     // Row 1
     protected JPanel row1 = new JPanel();
     protected JLabel inputLabel = new JLabel("Input: ");
